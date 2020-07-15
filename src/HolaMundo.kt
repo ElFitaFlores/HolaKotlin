@@ -23,4 +23,14 @@ fun main(args: Array<String>) {
         convallis consequat eget nec dolor. Nam vel est ex. Phasellus venenatis rhoncus nunc, sit amet aliquet metus 
         sollicitudin eu.
     """.trimIndent()
+
+    val oneToHundred = 1..5
+    for (i in oneToHundred){
+        println(i)
+    }
+
+    val aToC = 'a'..'c'
+    for (i in aToC) {
+        println(i)
+    }
 }
